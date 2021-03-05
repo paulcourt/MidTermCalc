@@ -46,6 +46,7 @@ public void testDiv2() {
 	
 @Test(expected=java.lang.ArithmeticException.class)
 public void testDiv3() throws Exception {
+	Calc test = new Calc();
 	double result = test.div(3, 0);
 }
 }
