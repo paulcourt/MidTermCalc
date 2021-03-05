@@ -1,20 +1,20 @@
 public class Calc{
 	
-	public static double add(int a, int b) {
+	public static double add(double a, double b) {
 		return a + b;
 		
 	}
-	public static double subt(int a, int b) {
+	public static double subt(double a, double b) {
 		return a - b;
 		
 	}		
 	
-	public static double mult(int a, int b) {
+	public static double mult(double a, double b) {
 		return a * b;
 		
 	}		
 	
-	public static double div(int a, int b) {
+	public static double div(double a, double b) {
 		return a / b;
 		
 	}
