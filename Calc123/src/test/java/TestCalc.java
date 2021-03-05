@@ -3,8 +3,12 @@
  */
 import static org.junit.Assert.*;
 import org.junit.Test;
+import org.junit.Before;
 
 public class TestCalc {
+
+   @Before
+public void setUp() throws Exception {}
 	
 @Test
 public void testAdd() {
@@ -17,7 +21,7 @@ public void testAdd() {
 public void testSubt() {
 	Calc test = new Calc();
 	double result = test.subt(3, 2);
-	assertEquals(-1, result, 0.1);
+	assertEquals(1, result, 0.1);
 }
 
 @Test
