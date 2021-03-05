@@ -32,4 +32,11 @@ public void testDiv() {
 	double result = test.div(3, 2);
 	assertEquals(1.5, result, 0.01);
 }
+@Test
+public void testDiv2() {
+	Calc test = new Calc();
+	double result = test.div(2, 3);
+	assertEquals(0.66, result, 0.01);
+}
+	
 }
