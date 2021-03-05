@@ -1,30 +1,28 @@
-package Calc;
+public class Calc{
 
-	public class Calc{
+	public static double add(double a, double b) {
+		return a + b;
+
+	}
+	public static double subt(double a, double b) {
+		return a - b;
+
+	}		
+
+	public static double mult(double a, double b) {
+		return a * b;
+
+	}		
 		
-		public static double add(double a, double b) {
-			return a + b;
-			
-		}
-		public static double subt(double a, double b) {
-			return a - b;
-			
-		}		
-		
-		public static double mult(double a, double b) {
-			return a * b;
-			
-		}		
-		
-		public static double div(double a, double b) {
-			if (b == 0) {
-	            throw new ArithmeticException("Division by 0");
+	public static double div(double a, double b) {
+		if (b == 0) {
+	        	throw new ArithmeticException("Division by 0");
 			}
-	            else{
+	        else{
 	            return a / b;
 	        }
 			
-		}
+	}
 		
 		
 		public static void main (String[] argv) 
