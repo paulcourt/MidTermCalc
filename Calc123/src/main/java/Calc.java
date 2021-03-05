@@ -23,21 +23,21 @@ public class Calc{
 	public static void main (String[] argv) 
 	   {
 		
-		int result = add(2,3);
+		int result = add(3,2);
 	     
 	      System.out.println("Add: " + result);
 
-		result = Calc.subt(2,3);
+		result = Calc.subt(3, 2);
 		     
 		  System.out.println("Subt: " + result);
 		
-		result = Calc.mult(2,3);
+		result = Calc.mult(3,2);
 			     
 			System.out.println("Mult: " + result);
 
-		double result1 = Calc.div(2,3);
+		int result = Calc.div(3,2);
 				     
-			System.out.println("Div: " + result1);
+			System.out.println("Div: " + result);
 
 	   }
 }
