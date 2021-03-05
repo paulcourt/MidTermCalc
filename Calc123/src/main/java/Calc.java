@@ -1,20 +1,20 @@
 public class Calc{
 	
-	public static int add(int a, int b) {
+	public static double add(int a, int b) {
 		return a + b;
 		
 	}
-	public static int subt(int a, int b) {
+	public static double subt(int a, int b) {
 		return a - b;
 		
 	}		
 	
-	public static int mult(int a, int b) {
+	public static double mult(int a, int b) {
 		return a * b;
 		
 	}		
 	
-	public static int div(int a, int b) {
+	public static double div(int a, int b) {
 		return a / b;
 		
 	}
@@ -23,7 +23,7 @@ public class Calc{
 	public static void main (String[] argv) 
 	   {
 		
-		int result = add(3,2);
+		double result = add(3,2);
 	     
 	      System.out.println("Add: " + result);
 
