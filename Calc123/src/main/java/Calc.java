@@ -14,7 +14,7 @@ public class Calc{
 		
 	}		
 	
-	public static double div(int a, int b) {
+	public static int div(int a, int b) {
 		return a / b;
 		
 	}
