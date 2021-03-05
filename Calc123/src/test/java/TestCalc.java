@@ -29,7 +29,7 @@ public void testMult() {
 @Test
 public void testDiv() {
 	Calc test = new Calc();
-	result = test.div(3, 2);
+	int result = test.div(3, 2);
 	assertEquals(1.5, result);
 }
 }
