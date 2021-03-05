@@ -15,8 +15,12 @@ public class Calc{
 	}		
 	
 	public static double div(double a, double b) {
-		return a / b;
-		
+		if (b == 0) {
+	            throw new ArithmeticException("Division by 0");
+			}
+	            else{
+	            return a / b;
+	        }
 	}
 	
 	
