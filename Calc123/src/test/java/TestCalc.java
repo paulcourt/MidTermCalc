@@ -43,11 +43,9 @@ public void testDiv2() {
 	double result = test.div(2, 3);
 	assertEquals(0.66, result, 0.1);
 }
-
-@Test(expected = IllegalArgumentException.class)
-public void testDiv3() {
-	Calc test = new Calc();
+	
+@Test(expected=java.lang.ArithmeticException.class)
+public void testDiv3() throws Exception {
 	double result = test.div(3, 0);
 }
-
 }
