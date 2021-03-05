@@ -35,7 +35,7 @@ public class Calc{
 			     
 			System.out.println("Mult: " + result);
 
-		int result = Calc.div(3,2);
+		result = Calc.div(3,2);
 				     
 			System.out.println("Div: " + result);
 
